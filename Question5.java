@@ -28,8 +28,7 @@ public class Question5
 
     //get user input
     Scanner in = new Scanner(System.in);
-    System.out.println("How many numbers will you be inputting?");
-    int num = in.nextInt();
+    int num = in.nextInt(); //number of integers to input
     int[] numList = new int[num];
     int i=0;
     while (i<num){
